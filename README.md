@@ -29,6 +29,7 @@ The code herein is compatible with
 ## General project layout
 
 ---------------------------------FIRST STAGE-------------------------------------------
+
 First stage - with only one sensor connected to the board - capacitive soil moisture with a display. 
 
 ---------------------------------SECOND STAGE-------------------------------------------
