@@ -18,17 +18,16 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+#include <lcd5110.h>
 #include "main.h"
 #include "adc.h"
+#include "dma.h"
 #include "i2c.h"
 #include "i2s.h"
 #include "spi.h"
 #include "tim.h"
 #include "usb_otg.h"
 #include "gpio.h"
-#include "lcd5110.h"
-#include "lcd5110_ll.h"
-
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -46,17 +45,18 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-uint32_t adcResult = 0;
-// values for 5 volt
-const int air_value =3200;
-const int water_value = 1550;
-float soil_moisture_percent;
+
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+volatile uint8_t flag = 0;
+char trans_str[64] = {0,};
+volatile uint16_t adc[2] = {0,};
+const int air_value =3600;
+const int water_value = 1550;
+//volatile float soil_moisture_percent;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -68,6 +68,40 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 LCD5110_display lcd1;
+volatile uint32_t tim10_overflows = 0;
+
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
+{
+    if(hadc->Instance == ADC1)
+    {
+        flag = 1;
+        HAL_ADC_Stop_DMA(&hadc1);
+        adc[0] = 0;
+        adc[1] = 0;
+        HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&adc, 2);
+    }
+}
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+    if( htim->Instance == TIM10 )
+    {
+        ++tim10_overflows;
+    }
+}
+
+inline uint32_t get_tim10_us()
+{
+    __HAL_TIM_DISABLE_IT(&htim10, TIM_IT_UPDATE);
+    uint32_t res = tim10_overflows * 10000 + __HAL_TIM_GET_COUNTER(&htim10);
+    __HAL_TIM_ENABLE_IT(&htim10, TIM_IT_UPDATE);
+    return res;
+}
+
+inline void udelay_TIM10(uint32_t useconds) {
+    uint32_t before = get_tim10_us();
+    while( get_tim10_us() < before+useconds){}
+}
 /* USER CODE END 0 */
 
 /**
@@ -98,6 +132,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_ADC1_Init();
   MX_I2C1_Init();
   MX_I2S3_Init();
@@ -105,6 +140,7 @@ int main(void)
   MX_SPI2_Init();
   MX_TIM3_Init();
   MX_USB_OTG_FS_USB_Init();
+  MX_TIM10_Init();
   /* USER CODE BEGIN 2 */
         lcd1.hw_conf.spi_handle = &hspi2;
         lcd1.hw_conf.spi_cs_pin =  LCD1_CE_Pin;
@@ -115,66 +151,213 @@ int main(void)
         lcd1.hw_conf.dc_port = LCD1_DC_GPIO_Port;
         lcd1.def_scr = lcd5110_def_scr;
         LCD5110_init(&lcd1.hw_conf, LCD5110_NORMAL_MODE, 0x40, 2, 3);
+
+    HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&adc, 2);
+    HAL_TIM_Base_Start_IT(&htim10);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
     while (1)
     {
-        HAL_ADC_Start(&hadc1);
-        HAL_ADC_PollForConversion(&hadc1, 500);
-        adcResult = HAL_ADC_GetValue(&hadc1);
-        soil_moisture_percent = ((((float)adcResult-air_value)*((float)(100))/(water_value - air_value)));
-        HAL_ADC_Stop(&hadc1);
-        if(soil_moisture_percent >= 90){
-            HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, GPIO_PIN_RESET);
-            HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, GPIO_PIN_RESET);
-            HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_SET);
-            //orange
-            LCD5110_set_cursor(0,0,&lcd1);
-            if(soil_moisture_percent >100){
-                soil_moisture_percent = 100;
-            };
-            LCD5110_printf(&lcd1,BLACK,"Humidity is\n %.3f\n",soil_moisture_percent);
-            LCD5110_set_cursor(0,20,&lcd1);
-            LCD5110_printf(&lcd1,BLACK,"it is too wet");
-            LCD5110_refresh(&lcd1);
-            HAL_Delay(500);
-            LCD5110_clear_scr(&lcd1);
+        // setting 1 to a motor pin
+        HAL_GPIO_WritePin(GPIOD, MOTOR_Pin, GPIO_PIN_SET);
+
+        // dealing with 2 sensors
+        if(flag)
+        {
+            flag = 0;
+
+            HAL_ADC_Stop_DMA(&hadc1);
+
+            HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&adc, 2);
+
+            uint16_t light =  adc[0];
+            uint16_t moisture = adc[1];
+            float soil_moisture_percent = ((((float)moisture-air_value)*((float)(100))/(water_value - air_value)));
+
+            HAL_ADC_Stop_DMA(&hadc1);
+
+            if(soil_moisture_percent >= 85){
+                HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, GPIO_PIN_RESET);
+                HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, GPIO_PIN_RESET);
+                HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_SET);
+                //orange
+                LCD5110_set_cursor(0,0,&lcd1);
+                if(soil_moisture_percent >100){
+                    soil_moisture_percent = 100;
+                };
+                LCD5110_printf(&lcd1,BLACK,"Humidity is\n %.3f\n",soil_moisture_percent);
+                LCD5110_set_cursor(0,20,&lcd1);
+                LCD5110_printf(&lcd1,BLACK,"it is too wet");
+                LCD5110_refresh(&lcd1);
+                HAL_Delay(1000);
+                LCD5110_clear_scr(&lcd1);
 
 
-        }
-        else if(soil_moisture_percent <= 10){
-//            LCD5110_clear_scr(&lcd1);
-            HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_RESET);
-            HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, GPIO_PIN_RESET);
-            HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, GPIO_PIN_SET);
-            //green
-            if(soil_moisture_percent < 0){
-                soil_moisture_percent = 0;
-            };
-            LCD5110_set_cursor(0,0,&lcd1);
-            LCD5110_printf(&lcd1,BLACK,"Humidity is\n %.3f\n",soil_moisture_percent);
-            LCD5110_set_cursor(0,20,&lcd1);
-            LCD5110_printf(&lcd1,BLACK,"it is too dry");
-            LCD5110_refresh(&lcd1);
-            HAL_Delay(500);
-            LCD5110_clear_scr(&lcd1);
+            }
+            else if(soil_moisture_percent <= 30){
+                HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_RESET);
+                HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, GPIO_PIN_RESET);
+                HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, GPIO_PIN_SET);
+                //green
+                if(soil_moisture_percent < 0){
+                    soil_moisture_percent = 0;
+                };
+                LCD5110_set_cursor(0,0,&lcd1);
+                LCD5110_printf(&lcd1,BLACK,"Humidity is\n %.3f\n",soil_moisture_percent);
+                LCD5110_set_cursor(0,20,&lcd1);
+                LCD5110_printf(&lcd1,BLACK,"it is too dry");
+                LCD5110_refresh(&lcd1);
+                HAL_Delay(1000);
+                LCD5110_clear_scr(&lcd1);
 
-        }
-        else if (soil_moisture_percent > 10 && soil_moisture_percent < 90){
-//            LCD5110_clear_scr(&lcd1);
-            HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_RESET);
-            HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, GPIO_PIN_RESET);
-            HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, GPIO_PIN_SET);
-            //red
-            LCD5110_set_cursor(0,0,&lcd1);
-            LCD5110_printf(&lcd1,BLACK,"Humidity is\n %.3f\n",soil_moisture_percent);
-            LCD5110_set_cursor(0,20,&lcd1);
-            LCD5110_printf(&lcd1,BLACK,"it is OK");
-            LCD5110_refresh(&lcd1);
-            HAL_Delay(500);
-            LCD5110_clear_scr(&lcd1);
+                 //turning on the motor
+                HAL_GPIO_WritePin(GPIOD, RELAY_Pin, GPIO_PIN_SET);
+                HAL_Delay(300);
+
+
+            }
+            else if (soil_moisture_percent > 30 && soil_moisture_percent <= 85) {
+                HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_RESET);
+                HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, GPIO_PIN_RESET);
+                HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, GPIO_PIN_SET);
+                //red
+                LCD5110_set_cursor(0, 0, &lcd1);
+                LCD5110_printf(&lcd1, BLACK, "Humidity is\n %.3f\n", soil_moisture_percent);
+                LCD5110_set_cursor(0, 20, &lcd1);
+                LCD5110_printf(&lcd1, BLACK, "it is OK");
+                LCD5110_refresh(&lcd1);
+                HAL_Delay(1000);
+                LCD5110_clear_scr(&lcd1);
+            }
+
+            // turning on or turning off the light
+            if (light > 1000 && light < 2000) {
+                HAL_GPIO_WritePin(GPIOD, DIODE1_Pin, GPIO_PIN_SET);
+            }
+            else if (light < 1000) {
+                HAL_GPIO_WritePin(GPIOD, DIODE1_Pin, GPIO_PIN_SET);
+                HAL_GPIO_WritePin(GPIOD, DIODE2_Pin, GPIO_PIN_SET);
+            }
+            else if (light > 3000) {
+                HAL_GPIO_WritePin(GPIOD, DIODE1_Pin, GPIO_PIN_RESET);
+                HAL_GPIO_WritePin(GPIOD, DIODE2_Pin, GPIO_PIN_RESET);
+            }
+
+            // work with range-finder
+            int t_state = HAL_GPIO_ReadPin(TRIG_GPIO_Port, TRIG_Pin);
+            while(  t_state == GPIO_PIN_SET )
+            {
+                LCD5110_set_cursor(0,0,&lcd1);
+                LCD5110_printf(&lcd1,BLACK,"Wrong state\n before triggering,\n Trig is high\n");
+                LCD5110_refresh(&lcd1);
+                HAL_Delay(500);
+                LCD5110_clear_scr(&lcd1);
+                HAL_Delay(300);
+            }
+            HAL_GPIO_WritePin(TRIG_GPIO_Port, TRIG_Pin, GPIO_PIN_SET);
+            if ( HAL_GPIO_ReadPin(TRIG_GPIO_Port, TRIG_Pin) != GPIO_PIN_SET )
+            {
+                LCD5110_set_cursor(0,0,&lcd1);
+                LCD5110_printf(&lcd1,BLACK,"Line Trig\n do not went\n high\n while triggering.\n");
+                LCD5110_refresh(&lcd1);
+                HAL_Delay(500);
+                LCD5110_clear_scr(&lcd1);
+                HAL_GPIO_WritePin(TRIG_GPIO_Port, TRIG_Pin, GPIO_PIN_RESET);
+                HAL_Delay(300);
+                continue;
+            }
+            udelay_TIM10(16);
+            HAL_GPIO_WritePin(TRIG_GPIO_Port, TRIG_Pin, GPIO_PIN_RESET);
+            if ( HAL_GPIO_ReadPin(TRIG_GPIO_Port, TRIG_Pin) != GPIO_PIN_RESET )
+            {
+                LCD5110_set_cursor(0,0,&lcd1);
+                LCD5110_printf(&lcd1,BLACK,"Line Trig\n do not went\n low\n while triggering.\n");
+                LCD5110_refresh(&lcd1);
+                HAL_Delay(500);
+                LCD5110_clear_scr(&lcd1);
+                HAL_GPIO_WritePin(TRIG_GPIO_Port, TRIG_Pin, GPIO_PIN_RESET);
+                HAL_Delay(300);
+                continue;
+            }
+            if ( HAL_GPIO_ReadPin(ECHO_GPIO_Port, ECHO_Pin) == GPIO_PIN_SET )
+            {
+                LCD5110_set_cursor(0,0,&lcd1);
+                LCD5110_printf(&lcd1,BLACK,"Line ECHO\n is high\n too early.\n");
+                LCD5110_refresh(&lcd1);
+                HAL_Delay(500);
+                LCD5110_clear_scr(&lcd1);
+                HAL_Delay(300);
+                continue;
+            }
+
+            uint32_t watch = get_tim10_us();
+            int didnt_had_1_at_echo = 0;
+            while(HAL_GPIO_ReadPin(ECHO_GPIO_Port, ECHO_Pin) == GPIO_PIN_RESET )
+            {
+                if( get_tim10_us() - watch > 500000 )
+                {
+                    didnt_had_1_at_echo = 1;
+                    break;
+                }
+            }
+            if(didnt_had_1_at_echo)
+            {
+                LCD5110_set_cursor(0,0,&lcd1);
+                LCD5110_printf(&lcd1,BLACK,"Line ECHO\n didn't go\n high for\n a long time.\n");
+                LCD5110_refresh(&lcd1);
+                HAL_Delay(500);
+                LCD5110_clear_scr(&lcd1);
+                HAL_Delay(300);
+                continue;
+            }
+
+            uint32_t before = get_tim10_us();
+            int didnt_had_0_at_echo = 0;
+            while(HAL_GPIO_ReadPin(ECHO_GPIO_Port, ECHO_Pin) == GPIO_PIN_SET )
+            {
+                if( get_tim10_us() - watch > 500000 )
+                {
+                    didnt_had_0_at_echo = 1;
+                    break;
+                }
+            }
+            if(didnt_had_0_at_echo)
+            {
+                LCD5110_set_cursor(0,0,&lcd1);
+                LCD5110_printf(&lcd1,BLACK,"Line ECHO\n didn't go\n low for\n a"
+                                           " long time.\n");
+                LCD5110_refresh(&lcd1);
+                HAL_Delay(500);
+                LCD5110_clear_scr(&lcd1);
+                HAL_Delay(300);
+                continue;
+            }
+
+            uint32_t pulse_time = get_tim10_us()-before;
+            uint32_t distance = pulse_time/58;
+            if (distance < 500) {
+                LCD5110_set_cursor(0, 0, &lcd1);
+                LCD5110_printf(&lcd1, BLACK, "Distance to watter is\n %lu cm\n", distance);
+                LCD5110_refresh(&lcd1);
+                HAL_Delay(500);
+                LCD5110_clear_scr(&lcd1);
+            }
+            else if (distance > 500)
+            {
+                LCD5110_set_cursor(0,0,&lcd1);
+                LCD5110_printf(&lcd1,BLACK,"Too far\n no echo\n at all");
+                LCD5110_refresh(&lcd1);
+                HAL_Delay(500);
+                LCD5110_clear_scr(&lcd1);
+            }
+            // continue the work with DMA
+            adc[0] = 0;
+            adc[1] = 0;
+            HAL_Delay(3000);
+            HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&adc, 2);
+
         }
     /* USER CODE END WHILE */
 
@@ -201,7 +384,7 @@ void SystemClock_Config(void)
   * in the RCC_OscInitTypeDef structure.
   */
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
-  RCC_OscInitStruct.HSEState = RCC_HSE_BYPASS;
+  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 4;
