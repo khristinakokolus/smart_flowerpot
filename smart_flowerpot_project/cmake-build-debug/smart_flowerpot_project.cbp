@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="smart_flowerpot_project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smart_flowerpot_project.elf">
+				<Option output="C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc"/>
+					<Add directory="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 smart_flowerpot_project.elf"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smart_flowerpot_project.elf/fast">
+				<Option output="C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc"/>
+					<Add directory="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\9 2020-q2-update\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 smart_flowerpot_project.elf/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/adc.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/dma.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/font6x8.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/gpio.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/i2c.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/i2s.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/lcd5110.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/lcd5110_hal.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/lcd5110_ll.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/main.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/spi.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/stm32f4xx_it.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/tim.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Inc/usb_otg.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/adc.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/dma.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/gpio.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/i2c.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/i2s.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/lcd5110.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/lcd5110_hal.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/lcd5110_ll.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/main.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/spi.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/stm32f4xx_it.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/syscalls.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/system_stm32f4xx.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/tim.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Core/Src/usb_otg.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/STM32F411VETx_FLASH.ld">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/startup/startup_stm32f411xe.s">
+			<Option target="smart_flowerpot_project.elf"/>
+		</Unit>
+		<Unit filename="C:/UCU/Second/POC/final_project/smart_flowerpot_project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

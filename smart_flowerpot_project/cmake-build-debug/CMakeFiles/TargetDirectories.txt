@@ -1,0 +1,3 @@
+C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/CMakeFiles/smart_flowerpot_project.elf.dir
+C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
