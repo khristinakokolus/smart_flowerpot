@@ -216,7 +216,6 @@ CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: ../Core/Inc/l
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: ../Core/Inc/main.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: ../Core/Inc/spi.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
-CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: ../Core/Inc/stm32f4xx_it.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
@@ -256,7 +255,6 @@ CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: ../Drivers/ST
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: ../Core/Src/lcd5110.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.obj: ../Core/Inc/gpio.h
-CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.obj: ../Core/Inc/lcd5110.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.obj: ../Core/Inc/lcd5110_hal.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.obj: ../Core/Inc/lcd5110_ll.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.obj: ../Core/Inc/main.h
@@ -348,6 +346,9 @@ CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/dma.
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/gpio.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/i2c.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/i2s.h
+CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/lcd5110.h
+CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/lcd5110_hal.h
+CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/lcd5110_ll.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/main.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/spi.h
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h

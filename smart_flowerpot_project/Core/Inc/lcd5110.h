@@ -72,22 +72,10 @@ void LCD5110_clear_str(int x, int y, int len, int color, LCD5110_display* lcd_co
 void LCD5110_wclear_str(int x, int y, int len, int color,
 		 LCD5110_canvas_t* win, LCD5110_display* lcd_conf);
 
-inline void LCD5110_clear_scr(LCD5110_display* lcd_conf){
-	LCD5110_clrscr(&lcd_conf->hw_conf);
-}
-inline void LCD5110_clear_win(LCD5110_canvas_t* win, LCD5110_display* lcd_conf){
-	LCD5110_wrect_fill(&win->frame, WHITE, win, lcd_conf);
-}
-inline void LCD5110_fill_scr(LCD5110_display* lcd_conf){
-	LCD5110_fillscr(&lcd_conf->hw_conf);
-}
-inline void LCD5110_fill_win(LCD5110_canvas_t* win, LCD5110_display* lcd_conf){
-	LCD5110_wrect_fill(&win->frame, BLACK, win, lcd_conf);
-}
-
 void LCD5110_wset_cursor(int x, int y, LCD5110_canvas_t* win, LCD5110_display* lcd_conf);
 point_t LCD5110_wget_cursor(LCD5110_canvas_t* win, LCD5110_display* lcd_conf);
 
+// Regarding inline -- C also lcd5110.c.
 inline void LCD5110_set_cursor(int x, int y, LCD5110_display* lcd_conf)
 {
 	LCD5110_wset_cursor(x, y, &lcd_conf->def_scr, lcd_conf);
@@ -95,6 +83,21 @@ inline void LCD5110_set_cursor(int x, int y, LCD5110_display* lcd_conf)
 inline point_t LCD5110_get_cursor(LCD5110_display* lcd_conf)
 {
 	return LCD5110_wget_cursor(&lcd_conf->def_scr, lcd_conf);
+}
+
+inline void LCD5110_clear_scr(LCD5110_display* lcd_conf){
+	LCD5110_clrscr(&lcd_conf->hw_conf);
+	LCD5110_set_cursor(0, 0, lcd_conf);
+}
+inline void LCD5110_clear_win(LCD5110_canvas_t* win, LCD5110_display* lcd_conf){
+	LCD5110_wrect_fill(&win->frame, WHITE, win, lcd_conf);
+	LCD5110_wset_cursor(0, 0, win, lcd_conf);
+}
+inline void LCD5110_fill_scr(LCD5110_display* lcd_conf){
+	LCD5110_fillscr(&lcd_conf->hw_conf);
+}
+inline void LCD5110_fill_win(LCD5110_canvas_t* win, LCD5110_display* lcd_conf){
+	LCD5110_wrect_fill(&win->frame, BLACK, win, lcd_conf);
 }
 
 

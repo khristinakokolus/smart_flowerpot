@@ -2,14 +2,13 @@
  * lcd5110_hal.h -- functions, which manipulate buffer, but do not
  * talk directly to Hardware
  *
- *  Created on: 2 ï¿½ï¿½. 2017
+ *  Created on: 2 ñ³÷. 2017
  *      Author: indrekis
  */
 
 #ifndef LCD5110_HAL_H_
 #define LCD5110_HAL_H_
-#include "lcd5110_ll.h"
-#include "lcd5110.h"
+
 void LCD5110_clrscr(LCD5110_conf* lcd_conf);
 void LCD5110_fillscr(LCD5110_conf* lcd_conf);
 

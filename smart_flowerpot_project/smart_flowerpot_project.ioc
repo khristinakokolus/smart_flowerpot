@@ -1,7 +1,8 @@
 #MicroXplorer Configuration settings - do not modify
 ADC1.Channel-1\#ChannelRegularConversion=ADC_CHANNEL_1
 ADC1.Channel-2\#ChannelRegularConversion=ADC_CHANNEL_2
-ADC1.IPParameters=Rank-1\#ChannelRegularConversion,Channel-1\#ChannelRegularConversion,SamplingTime-1\#ChannelRegularConversion,NbrOfConversionFlag,master,ScanConvMode,Rank-2\#ChannelRegularConversion,Channel-2\#ChannelRegularConversion,SamplingTime-2\#ChannelRegularConversion,NbrOfConversion
+ADC1.ContinuousConvMode=ENABLE
+ADC1.IPParameters=Rank-1\#ChannelRegularConversion,Channel-1\#ChannelRegularConversion,SamplingTime-1\#ChannelRegularConversion,NbrOfConversionFlag,master,ScanConvMode,Rank-2\#ChannelRegularConversion,Channel-2\#ChannelRegularConversion,SamplingTime-2\#ChannelRegularConversion,NbrOfConversion,ContinuousConvMode
 ADC1.NbrOfConversion=2
 ADC1.NbrOfConversionFlag=1
 ADC1.Rank-1\#ChannelRegularConversion=1
@@ -436,9 +437,10 @@ SPI1.Direction=SPI_DIRECTION_2LINES
 SPI1.IPParameters=CalculateBaudRate,BaudRatePrescaler,Mode,VirtualType,Direction
 SPI1.Mode=SPI_MODE_MASTER
 SPI1.VirtualType=VM_MASTER
-SPI2.CalculateBaudRate=12.0 MBits/s
+SPI2.BaudRatePrescaler=SPI_BAUDRATEPRESCALER_16
+SPI2.CalculateBaudRate=1.5 MBits/s
 SPI2.Direction=SPI_DIRECTION_2LINES
-SPI2.IPParameters=VirtualType,Mode,Direction,CalculateBaudRate
+SPI2.IPParameters=VirtualType,Mode,Direction,CalculateBaudRate,BaudRatePrescaler
 SPI2.Mode=SPI_MODE_MASTER
 SPI2.VirtualType=VM_MASTER
 TIM10.Channel=TIM_CHANNEL_1

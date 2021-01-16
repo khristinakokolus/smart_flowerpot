@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\UCU\Second\POC\final_project\smart_flowerpot_project
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project
 -- The C compiler identification is GNU 9.3.1
 -- The CXX compiler identification is GNU 9.3.1
 -- The ASM compiler identification is GNU
@@ -18,4 +18,4 @@
 -- Minimal optimization, debug info included
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug
+-- Build files have been written to: C:/UCU/Second/POC/FINAL_COPY/smart_flowerpot_project/cmake-build-debug

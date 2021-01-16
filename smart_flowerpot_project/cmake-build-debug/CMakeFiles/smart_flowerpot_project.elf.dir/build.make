@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\UCU\Second\POC\final_project\smart_flowerpot_project
+CMAKE_SOURCE_DIR = C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug
+CMAKE_BINARY_DIR = C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/smart_flowerpot_project.elf.dir/depend.make
@@ -78,502 +78,502 @@ include CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/adc.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/adc.c.obj: ../Core/Src/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/adc.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\adc.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/adc.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\adc.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\adc.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/adc.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\adc.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\adc.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\adc.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\adc.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/adc.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\adc.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\adc.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\adc.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\adc.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/dma.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/dma.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\dma.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/dma.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\dma.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\dma.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/dma.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\dma.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\dma.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\dma.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\dma.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/dma.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\dma.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\dma.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\dma.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\dma.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/gpio.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\gpio.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/gpio.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\gpio.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\gpio.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/gpio.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\gpio.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\gpio.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\gpio.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/gpio.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\gpio.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\gpio.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\gpio.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2c.c.obj: ../Core/Src/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2c.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2c.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2c.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2c.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\i2c.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2c.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\i2c.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2c.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\i2c.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2c.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2c.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\i2c.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2c.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\i2c.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2c.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2s.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2s.c.obj: ../Core/Src/i2s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2s.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2s.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\i2s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2s.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2s.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\i2s.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2s.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\i2s.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2s.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\i2s.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2s.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/i2s.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\i2s.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2s.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\i2s.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\i2s.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj: ../Core/Src/lcd5110.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\lcd5110.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\lcd5110.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\lcd5110.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\lcd5110.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\lcd5110.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\lcd5110.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.obj: ../Core/Src/lcd5110_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_hal.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\lcd5110_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_hal.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\lcd5110_hal.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\lcd5110_hal.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_hal.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\lcd5110_hal.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_hal.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_hal.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\lcd5110_hal.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_hal.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\lcd5110_hal.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_hal.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_ll.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_ll.c.obj: ../Core/Src/lcd5110_ll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_ll.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_ll.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\lcd5110_ll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_ll.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_ll.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\lcd5110_ll.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_ll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_ll.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\lcd5110_ll.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_ll.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\lcd5110_ll.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_ll.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_ll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/lcd5110_ll.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\lcd5110_ll.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_ll.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\lcd5110_ll.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\lcd5110_ll.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\main.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\main.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\main.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\main.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\main.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\main.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/main.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\main.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\main.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\main.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/spi.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/spi.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\spi.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/spi.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\spi.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\spi.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/spi.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\spi.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\spi.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\spi.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\spi.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/spi.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\spi.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\spi.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\spi.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\spi.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_it.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_it.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_it.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_it.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\stm32f4xx_it.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_it.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\stm32f4xx_it.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_it.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/stm32f4xx_it.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\stm32f4xx_it.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_it.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\stm32f4xx_it.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\stm32f4xx_it.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/syscalls.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\syscalls.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/syscalls.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\syscalls.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\syscalls.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/syscalls.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\syscalls.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\syscalls.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\syscalls.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/syscalls.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\syscalls.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\syscalls.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\syscalls.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\system_stm32f4xx.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\system_stm32f4xx.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/system_stm32f4xx.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\system_stm32f4xx.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\system_stm32f4xx.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\system_stm32f4xx.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\system_stm32f4xx.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/system_stm32f4xx.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\system_stm32f4xx.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\system_stm32f4xx.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\system_stm32f4xx.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\system_stm32f4xx.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/tim.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/tim.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\tim.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/tim.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\tim.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\tim.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/tim.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\tim.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\tim.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\tim.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\tim.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/tim.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\tim.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\tim.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\tim.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\tim.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/usb_otg.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/usb_otg.c.obj: ../Core/Src/usb_otg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/usb_otg.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\usb_otg.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\usb_otg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/usb_otg.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\usb_otg.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\usb_otg.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/usb_otg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/usb_otg.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\usb_otg.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\usb_otg.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\usb_otg.c > CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\usb_otg.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/usb_otg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Core/Src/usb_otg.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Src\usb_otg.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\usb_otg.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Src\usb_otg.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Core\Src\usb_otg.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj   -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj   -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\smart_flowerpot_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/smart_flowerpot_project.elf.dir/startup/startup_stm32f411xe.s.obj: CMakeFiles/smart_flowerpot_project.elf.dir/flags.make
 CMakeFiles/smart_flowerpot_project.elf.dir/startup/startup_stm32f411xe.s.obj: ../startup/startup_stm32f411xe.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/smart_flowerpot_project.elf.dir/startup/startup_stm32f411xe.s.obj"
-	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\startup\startup_stm32f411xe.s.obj -c C:\UCU\Second\POC\final_project\smart_flowerpot_project\startup\startup_stm32f411xe.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/smart_flowerpot_project.elf.dir/startup/startup_stm32f411xe.s.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\smart_flowerpot_project.elf.dir\startup\startup_stm32f411xe.s.obj -c C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\startup\startup_stm32f411xe.s
 
 # Object files for target smart_flowerpot_project.elf
 smart_flowerpot_project_elf_OBJECTS = \
@@ -661,12 +661,12 @@ smart_flowerpot_project.elf: CMakeFiles/smart_flowerpot_project.elf.dir/Drivers/
 smart_flowerpot_project.elf: CMakeFiles/smart_flowerpot_project.elf.dir/startup/startup_stm32f411xe.s.obj
 smart_flowerpot_project.elf: CMakeFiles/smart_flowerpot_project.elf.dir/build.make
 smart_flowerpot_project.elf: CMakeFiles/smart_flowerpot_project.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C executable smart_flowerpot_project.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C executable smart_flowerpot_project.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\smart_flowerpot_project.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.bin"
-	arm-none-eabi-objcopy -Oihex C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.elf C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.hex
-	arm-none-eabi-objcopy -Obinary C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.elf C:/UCU/Second/POC/final_project/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/UCU/Second/POC/FINAL_COPY/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/UCU/Second/POC/FINAL_COPY/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.bin"
+	arm-none-eabi-objcopy -Oihex C:/UCU/Second/POC/FINAL_COPY/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.elf C:/UCU/Second/POC/FINAL_COPY/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.hex
+	arm-none-eabi-objcopy -Obinary C:/UCU/Second/POC/FINAL_COPY/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.elf C:/UCU/Second/POC/FINAL_COPY/smart_flowerpot_project/cmake-build-debug/smart_flowerpot_project.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/smart_flowerpot_project.elf.dir/build: smart_flowerpot_project.elf
@@ -678,6 +678,6 @@ CMakeFiles/smart_flowerpot_project.elf.dir/clean:
 .PHONY : CMakeFiles/smart_flowerpot_project.elf.dir/clean
 
 CMakeFiles/smart_flowerpot_project.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\UCU\Second\POC\final_project\smart_flowerpot_project C:\UCU\Second\POC\final_project\smart_flowerpot_project C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug C:\UCU\Second\POC\final_project\smart_flowerpot_project\cmake-build-debug\CMakeFiles\smart_flowerpot_project.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug C:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\cmake-build-debug\CMakeFiles\smart_flowerpot_project.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/smart_flowerpot_project.elf.dir/depend
 

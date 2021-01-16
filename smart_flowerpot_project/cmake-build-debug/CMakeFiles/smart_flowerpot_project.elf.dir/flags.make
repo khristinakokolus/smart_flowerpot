@@ -7,11 +7,11 @@ ASM_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -
 
 ASM_DEFINES = -DSTM32F411xE -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -IC:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Inc -IC:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\CMSIS\Include 
+ASM_INCLUDES = -IC:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Inc -IC:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\CMSIS\Include 
 
 C_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 
 C_DEFINES = -DSTM32F411xE -DUSE_HAL_DRIVER
 
-C_INCLUDES = -IC:\UCU\Second\POC\final_project\smart_flowerpot_project\Core\Inc -IC:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\UCU\Second\POC\final_project\smart_flowerpot_project\Drivers\CMSIS\Include 
+C_INCLUDES = -IC:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Core\Inc -IC:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\UCU\Second\POC\FINAL_COPY\smart_flowerpot_project\Drivers\CMSIS\Include 
 

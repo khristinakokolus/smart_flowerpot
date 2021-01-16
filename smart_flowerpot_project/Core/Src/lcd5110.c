@@ -3,12 +3,12 @@
 
 #include "lcd5110.h"
 
-#include "stm32f4xx_it.h"
+//#include "stm32f30x.h"
 //#include "stm32f30x_rcc.h"
-#include "gpio.h"
-#include "spi.h"
+//#include "stm32f30x_gpio.h"
+//#include "stm32f30x_spi.h"
 
-#include "font6x8.h"	  // ï¿½ï¿½ï¿½ï¿½ï¿½
+#include "font6x8.h"	  // øðèôò
 
 #include <limits.h>
 #include <math.h>
@@ -23,12 +23,23 @@ const LCD5110_canvas_t lcd5110_def_scr = {
 		1									 // Refresh on endl
 };
 
+//! Semantic of C inline differs much from C++ inline.
+//! https://stackoverflow.com/questions/6312597/is-inline-without-static-or-extern-ever-useful-in-c99
+extern inline void LCD5110_refresh(LCD5110_display* lcd_conf);
+extern inline void LCD5110_set_cursor(int x, int y, LCD5110_display* lcd_conf);
+extern inline point_t LCD5110_get_cursor(LCD5110_display* lcd_conf);
+extern inline inline void LCD5110_clear_scr(LCD5110_display* lcd_conf);
+extern inline void LCD5110_clear_win(LCD5110_canvas_t* win, LCD5110_display* lcd_conf);
+extern inline void LCD5110_fill_scr(LCD5110_display* lcd_conf);
+extern inline void LCD5110_fill_win(LCD5110_canvas_t* win, LCD5110_display* lcd_conf);
+extern inline void LCD5110_endl(LCD5110_display* lcd_conf);
+extern inline void LCD5110_print(const char* str, int color, LCD5110_display* lcd_conf);
 
-inline int LCD5110_max(int a, int b) {
+static inline int LCD5110_max(int a, int b) {
 	return a > b ? a : b;
 }
 
-inline int LCD5110_min(int a, int b) {
+static inline int LCD5110_min(int a, int b) {
 	return a < b ? a : b;
 }
 
