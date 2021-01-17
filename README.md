@@ -1,5 +1,7 @@
 # Smart Flowerpot project code for STM32
 
+Welcome to the Smart Flowerpot project!
+
 ## Contributors
 [Khrystyna Kokolus](https://github.com/khristinakokolus)
 
@@ -7,23 +9,38 @@
 
 [Zoryana Herman](https://github.com/zoriankaH)
 
-## Current stage
-Right now this project consists of a humidity sensor and light sensor that collect the data and a display,
-that shows collected humidity value represented in percentages. Also, using pump and relay it can
-water the flower. In addition to this, the project has light system that consists of two light emitting diodes.
+## Description
+Smart Flowerpot embodies assistance in taking care of plants. This device can solve such problems as:
 
-## Compatibility
+* lightning the plant if there is need;
+* measurement of soil moisture;
+* watering the plant if there is need;
+
+## Current stage
+Right now this project consists of a humidity sensor, light sensor and a range finder that collect the data, a display,
+that shows collected humidity value represented in percentages, the light and water levels. 
+
+Also, it waters the plant by using a pump when the humidity levels are too low. 
+
+The light system of the project consists of two light emitting diodes, that are turned on/off corresponding to the light level of the environment.
+
+The safety system consists of a relay module, positioned between the power supply and the main board, a current sensor, that measures if the current is present to the water pump, and a board that controls both. 
+
+If the current is present for too long, the safety system shuts off the entire main board as to prevent leaks. 
+
+## Compatibility and System Parts
 The code herein is compatible with 
 * STM32F4 Discovery board (STM32F411E-DISCO)
 * Nokia 5110 lcd display
 * Capacitive Soil Moisture Sensor v1.2.
 * Photoresistor
 * Water pump
-* Tongle relay
+* Tongle relay (x2)
 * Two light emitting diodes
 * uln2003
 * Power supply
 * Range-finder HC-SRO4
+* ACS712 Current Sensor Module
 
 
 ## General project layout
@@ -34,15 +51,22 @@ First stage - with only one sensor connected to the board - capacitive soil mois
 
 ---------------------------------SECOND STAGE-------------------------------------------
 
-Another one(light sensor) is also implemented to help control the light levels.
+Another one(light sensor) is also implemented to help control the light levels using two LEDs.
 
 For moisture control, a motor pump is used to pump the water into the pot from a reservoir.
 
-For water level control in the reservoir, we will use an ultrasonic wave detector.(in a progress)
+For water level control in the reservoir, we use an ultrasonic wave detector.
 
----------------------------------RIGHT NOW WE ARE HERE-------------------------------------------
+---------------------------------THIRD STAGE-------------------------------------------
 
-A wi-fi module will be used for transmitting collected data from the flowerpot to the website.
+All the parts are connected.
+
+The system is powered from a power supply and is independent.
+
+A safety system is integrated to protect the flowerpot from the malfunctioning.
+
+## Device prototype
+![IMG_2341](https://user-images.githubusercontent.com/60686300/104829194-02227880-587a-11eb-89fb-b7c85c87b34f.JPG)
 
 ## First presentation
 
@@ -51,6 +75,10 @@ https://docs.google.com/presentation/d/1q7wJt3yEb8WoOHoZEu2u7bHECblZe3X2M0yalXgQ
 ## Second presentation
 
 https://docs.google.com/presentation/d/1_il1YektkvcEoaa66g5Y_mPef7qdFaaRjCFx2uGNQVo/edit#slide=id.p
+
+## Third presentation
+
+https://docs.google.com/presentation/d/18os2GDgEw6rZ8zcXJJtTPWbyIMYb-L4hANoLNsaLuLs/edit#slide=id.p
 
 ## Cloning this Repository
 
