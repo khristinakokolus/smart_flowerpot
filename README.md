@@ -8,22 +8,23 @@
 [Zoryana Herman](https://github.com/zoriankaH)
 
 ## Current stage
-Right now this project consists of a humidity sensor and light sensor that collect the data and a display,
-that shows collected humidity value represented in percentages. Also, using pump and relay it can
-water the flower. In addition to this, the project has light system that consists of two light emitting diodes.
+Right now this project consists of a humidity sensor, light sensor and a range finder that collect the data, a display,
+that shows collected humidity value represented in percentages, the light and water levels. Also, it waters the plant by using a pump when the humidity levels are too low. The light system of the project consists of two light emitting diodes, that are turned on/off corresponding to the light level of the environment.
+The safety system consists of a relay module, positioned between the power supply and the main board, a current sensor, that measures if the current is present to the water pump, and a board that controls both. If the current is present for too long, the safety system shuts off the entire main board as to prevent leaks. 
 
-## Compatibility
+## Compatibility and System Parts
 The code herein is compatible with 
 * STM32F4 Discovery board (STM32F411E-DISCO)
 * Nokia 5110 lcd display
 * Capacitive Soil Moisture Sensor v1.2.
 * Photoresistor
 * Water pump
-* Tongle relay
+* Tongle relay (x2)
 * Two light emitting diodes
 * uln2003
 * Power supply
 * Range-finder HC-SRO4
+* ACS712 Current Sensor Module
 
 
 ## General project layout
@@ -52,6 +53,10 @@ https://docs.google.com/presentation/d/1q7wJt3yEb8WoOHoZEu2u7bHECblZe3X2M0yalXgQ
 ## Second presentation
 
 https://docs.google.com/presentation/d/1_il1YektkvcEoaa66g5Y_mPef7qdFaaRjCFx2uGNQVo/edit#slide=id.p
+
+## Third presentation
+
+https://docs.google.com/presentation/d/18os2GDgEw6rZ8zcXJJtTPWbyIMYb-L4hANoLNsaLuLs/edit#slide=id.p
 
 ## Cloning this Repository
 
