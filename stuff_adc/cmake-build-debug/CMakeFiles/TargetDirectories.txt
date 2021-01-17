@@ -1,0 +1,3 @@
+/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/CMakeFiles/stuff_adc.elf.dir

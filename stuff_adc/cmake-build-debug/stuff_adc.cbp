@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="stuff_adc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stuff_adc.elf">
+				<Option output="/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/stuff_adc.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/USB_HOST/App"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/USB_HOST/Target"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Core/Inc"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include/c++/10.2.0/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 stuff_adc.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stuff_adc.elf/fast">
+				<Option output="/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/stuff_adc.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/USB_HOST/App"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/USB_HOST/Target"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Core/Inc"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include/c++/10.2.0/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 stuff_adc.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/monberin/Documents/poc_labs/stuff_adc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Core/Inc/main.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Core/Inc/stm32f4xx_it.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Core/Src/main.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Core/Src/stm32f4xx_it.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Core/Src/syscalls.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Core/Src/sysmem.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Core/Src/system_stm32f4xx.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Core/Startup/startup_stm32f411vetx.s">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc/usbh_cdc.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/STM32F411VETX_FLASH.ld">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/USB_HOST/App/usb_host.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/USB_HOST/App/usb_host.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/USB_HOST/Target/usbh_conf.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/USB_HOST/Target/usbh_conf.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/USB_HOST/Target/usbh_platform.c">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/USB_HOST/Target/usbh_platform.h">
+			<Option target="stuff_adc.elf"/>
+		</Unit>
+		<Unit filename="/home/monberin/Documents/poc_labs/stuff_adc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
