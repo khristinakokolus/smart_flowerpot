@@ -1,11 +1,20 @@
 # Smart Flowerpot project code for STM32
 
+Welcome to the Smart Flowerpot project!
+
 ## Contributors
 [Khrystyna Kokolus](https://github.com/khristinakokolus)
 
 [Daryna Hnatenko](https://github.com/monberin)
 
 [Zoryana Herman](https://github.com/zoriankaH)
+
+## Description
+Smart Flowerpot embodies assistance in taking care of plants. This device can solve such problems as:
+
+* lightning the plant if there is need;
+* measurement of soil moisture;
+* watering the plant if there is need;
 
 ## Current stage
 Right now this project consists of a humidity sensor, light sensor and a range finder that collect the data, a display,
@@ -53,6 +62,9 @@ For water level control in the reservoir, we use an ultrasonic wave detector.
 The system is powered from a power supply and is independent.
 
 A safety system is integrated to protect the flowerpot from the malfunctioning.
+
+## Device prototype
+
 
 ## First presentation
 
