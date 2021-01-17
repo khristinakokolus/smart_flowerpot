@@ -9,8 +9,15 @@
 
 ## Current stage
 Right now this project consists of a humidity sensor, light sensor and a range finder that collect the data, a display,
-that shows collected humidity value represented in percentages, the light and water levels. Also, it waters the plant by using a pump when the humidity levels are too low. The light system of the project consists of two light emitting diodes, that are turned on/off corresponding to the light level of the environment.
-The safety system consists of a relay module, positioned between the power supply and the main board, a current sensor, that measures if the current is present to the water pump, and a board that controls both. If the current is present for too long, the safety system shuts off the entire main board as to prevent leaks. 
+that shows collected humidity value represented in percentages, the light and water levels. 
+
+Also, it waters the plant by using a pump when the humidity levels are too low. 
+
+The light system of the project consists of two light emitting diodes, that are turned on/off corresponding to the light level of the environment.
+
+The safety system consists of a relay module, positioned between the power supply and the main board, a current sensor, that measures if the current is present to the water pump, and a board that controls both. 
+
+If the current is present for too long, the safety system shuts off the entire main board as to prevent leaks. 
 
 ## Compatibility and System Parts
 The code herein is compatible with 
@@ -42,6 +49,7 @@ For moisture control, a motor pump is used to pump the water into the pot from a
 For water level control in the reservoir, we use an ultrasonic wave detector.
 
 ---------------------------------THIRD STAGE-------------------------------------------
+
 The system is powered from a power supply and is independent.
 
 A safety system is integrated to protect the flowerpot from the malfunctioning.
