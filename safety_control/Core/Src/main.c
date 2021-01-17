@@ -140,9 +140,13 @@ int main(void)
         HAL_ADC_Stop(&hadc1);
         if(adc > 3360) { // check if there is a current
             HAL_Delay(5000);
+            HAL_ADC_Start(&hadc1);
+            HAL_ADC_PollForConversion(&hadc1, 100);
+            adc = HAL_ADC_GetValue(&hadc1);
+            HAL_ADC_Stop(&hadc1);
             if (adc > 3360) { // if there is still a current after 5 seconds the system is shut down
                 HAL_GPIO_WritePin(RELAY_GPIO_Port, RELAY_Pin, GPIO_PIN_RESET);
-                HAL_Delay(10000000);
+//                HAL_Delay(10000000);
                 break;
             }
         }
