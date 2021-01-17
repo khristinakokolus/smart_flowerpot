@@ -59,6 +59,8 @@ For water level control in the reservoir, we use an ultrasonic wave detector.
 
 ---------------------------------THIRD STAGE-------------------------------------------
 
+All the parts are connected.
+
 The system is powered from a power supply and is independent.
 
 A safety system is integrated to protect the flowerpot from the malfunctioning.
