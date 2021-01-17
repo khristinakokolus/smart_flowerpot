@@ -64,7 +64,7 @@ The system is powered from a power supply and is independent.
 A safety system is integrated to protect the flowerpot from the malfunctioning.
 
 ## Device prototype
-
+![IMG_2341](https://user-images.githubusercontent.com/60686300/104829194-02227880-587a-11eb-89fb-b7c85c87b34f.JPG)
 
 ## First presentation
 
