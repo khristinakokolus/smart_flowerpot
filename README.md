@@ -34,15 +34,16 @@ First stage - with only one sensor connected to the board - capacitive soil mois
 
 ---------------------------------SECOND STAGE-------------------------------------------
 
-Another one(light sensor) is also implemented to help control the light levels.
+Another one(light sensor) is also implemented to help control the light levels using two LEDs.
 
 For moisture control, a motor pump is used to pump the water into the pot from a reservoir.
 
-For water level control in the reservoir, we will use an ultrasonic wave detector.(in a progress)
+For water level control in the reservoir, we use an ultrasonic wave detector.
 
----------------------------------RIGHT NOW WE ARE HERE-------------------------------------------
+---------------------------------THIRD STAGE-------------------------------------------
+The system is powered from a power supply and is independent.
 
-A wi-fi module will be used for transmitting collected data from the flowerpot to the website.
+A safety system is integrated to protect the flowerpot from the malfunctioning.
 
 ## First presentation
 
